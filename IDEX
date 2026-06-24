@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HenryWhiteToolz Contact Page">
+<title>HenryWhiteToolz</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    background:linear-gradient(135deg,#111827,#1f2937,#374151);
+}
+
+.container{
+    width:100%;
+    max-width:500px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(10px);
+    border-radius:25px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+    color:white;
+}
+
+.profile-img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:2.5rem;
+    margin-bottom:15px;
+}
+
+.bio{
+    font-size:1.1rem;
+    line-height:1.7;
+    color:#e5e7eb;
+    margin-bottom:25px;
+}
+
+.link-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    background:white;
+    color:#111827;
+    padding:18px;
+    margin:15px 0;
+    border-radius:15px;
+    font-size:1.1rem;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.link-btn:hover{
+    transform:translateY(-3px);
+    background:#f3f4f6;
+}
+
+.footer{
+    margin-top:25px;
+    color:#d1d5db;
+    font-size:14px;
+}
+
+@media(max-width:600px){
+    h1{
+        font-size:2rem;
+    }
+
+    .bio{
+        font-size:1rem;
+    }
+
+    .link-btn{
+        font-size:1rem;
+        padding:16px;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <img src="profile.jpg" alt="HenryWhiteToolz" class="profile-img">
+
+    <h1>HenryWhiteToolz</h1>
+
+    <p class="bio">
+        Social media support, monetization guidance, creator tools,
+        account recovery assistance, and digital consulting services.
+    </p>
+
+    <a class="link-btn"
+       href="https://wa.me/15677320463"
+       target="_blank"
+       rel="noopener noreferrer">
+       📱 WhatsApp
+    </a>
+
+    <a class="link-btn"
+       href="https://discord.gg/p36UVkgF"
+       target="_blank"
+       rel="noopener noreferrer">
+       🎮 Discord
+    </a>
+
+    <a class="link-btn"
+       href="https://t.me/henrywhitetoolz"
+       target="_blank"
+       rel="noopener noreferrer">
+       ✈️ Telegram
+    </a>
+
+    <div class="footer">
+        © 2026 HenryWhiteToolz. All Rights Reserved.
+    </div>
+
+</div>
+
+</body>
+</html>
